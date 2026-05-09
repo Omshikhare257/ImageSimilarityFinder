@@ -1,0 +1,14 @@
+# Backend Requirements
+flask
+flask-cors
+pillow
+numpy
+scikit-learn
+
+# Optional - for Deep CNN feature extraction (MobileNetV2)
+# Comment these out if you don't want torch (saves disk space)
+torch
+torchvision
+pillow==10.4.0
+numpy==1.26.4
+scipy==1.13.1
