@@ -555,4 +555,4 @@ class handler(BaseHTTPRequestHandler):
         self.wfile.write(body)
 
     def log_message(self, format, *args):
-        pass  # suppress default logging
+        pass  # suppress default logging 
